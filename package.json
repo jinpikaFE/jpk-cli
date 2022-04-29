@@ -1,0 +1,22 @@
+{
+  "name": "jpk-cli",
+  "version": "1.0.0",
+  "description": "nest_admin脚手架",
+  "main": "./bin/start.js",
+  "bin": {
+    "jpk-cli": "./bin/start.js"
+  },
+  "author": "jinpika",
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^9.2.0",
+    "fs-extra": "^10.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.3",
+    "ora": "5.4.1",
+    "util": "^0.12.4"
+  }
+}
