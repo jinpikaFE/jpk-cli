@@ -1,6 +1,6 @@
 {
   "name": "jpk-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nest_admin脚手架",
   "main": "./bin/start.js",
   "bin": {

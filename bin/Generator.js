@@ -48,19 +48,28 @@ class Generator {
     const { repo } = await inquirer.prompt({
       name: "repo",
       type: "list",
-      choices: [ {
-        name: 'nest-admin',
-        value: 'nest-admin'
-      }, {
-        name: 'vite-react-ts-admin',
-        value: 'vite-react-ts-admin'
-      }, {
-        name: 'jpk-lowcode-nextst',
-        value: 'jpk-lowcode-nextst'
-      }, {
-        name: 'vite-ssr-nest',
-        value: 'vite-ssr-nest'
-      }],
+      choices: [
+        {
+          name: "nest-admin",
+          value: "nest-admin",
+        },
+        {
+          name: "vite-react-ts-admin",
+          value: "vite-react-ts-admin",
+        },
+        {
+          name: "jpk-lowcode-nextst",
+          value: "jpk-lowcode-nextst",
+        },
+        {
+          name: "vite-ssr-nest",
+          value: "vite-ssr-nest",
+        },
+        {
+          name: "go-bin",
+          value: "go_web",
+        },
+      ],
       message: "请选择一个模版进行创建",
     });
 
@@ -97,7 +106,7 @@ class Generator {
   async download(repo, tag) {
     // 拼接链接 https://github.com/jinpikaFE/nest-admin/archive/refs/heads/master.zip
     // https://api.github.com/repos/jinpikaFE/nest-admin/zipball/refs/tags/v_mongodb
-    const requestUrl = `jinpikaFE/${repo}${tag?'#'+tag:''}`;
+    const requestUrl = `jinpikaFE/${repo}${tag ? "#" + tag : ""}`;
 
     // 2min 之后弹出，显示超时
     timer = setTimeout(() => {
