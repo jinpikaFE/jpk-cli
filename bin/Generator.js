@@ -73,6 +73,10 @@ class Generator {
           name: "go-fiber",
           value: "go-fiber",
         },
+        {
+          name: "taro-mini",
+          value: "en-mini",
+        },
       ],
       message: "请选择一个模版进行创建",
     });
