@@ -69,6 +69,10 @@ class Generator {
           name: "go-bin",
           value: "go_web",
         },
+        {
+          name: "go-fiber",
+          value: "go-fiber",
+        },
       ],
       message: "请选择一个模版进行创建",
     });
