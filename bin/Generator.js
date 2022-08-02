@@ -77,6 +77,10 @@ class Generator {
           name: "taro-mini",
           value: "en-mini",
         },
+        {
+          name: "umi4-admin",
+          value: "umi4-admin",
+        },
       ],
       message: "请选择一个模版进行创建",
     });
