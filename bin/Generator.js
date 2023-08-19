@@ -81,6 +81,10 @@ class Generator {
           name: "umi4-admin",
           value: "umi4-admin",
         },
+        {
+          name: "go-admin",
+          value: "go-admin",
+        },
       ],
       message: "请选择一个模版进行创建",
     });
