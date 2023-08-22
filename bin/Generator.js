@@ -74,8 +74,8 @@ class Generator {
           value: "go-fiber",
         },
         {
-          name: "taro-mini",
-          value: "en-mini",
+          name: "taro-temp",
+          value: "taro-temp",
         },
         {
           name: "umi4-admin",
